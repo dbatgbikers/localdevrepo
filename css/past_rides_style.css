@@ -218,19 +218,40 @@ p {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
 }
 
-#ride_details{
+.ride_details{
 	text-align: left;
 	margin: 20px 40px 20px 40px;
 }
 
-#ride_details h2 {
+.ride_details h2 {
 	text-align: left;
 	font-size: 30px;
 }
 
-.right_intro_panel {
+.right_info_content {
     background: url("../img/web_images/cal_background.jpg") 70% 0 no-repeat fixed;
     color: #fff;
     background-size: contain;
     position: relative;
+    height: 180px;
+    margin: 10px;
+}
+
+.date_number{
+	font-size: 80px;
+}
+.date_month{
+	font-size: 32px;
+}
+.date_year{
+	font-size: 20px;
+}
+
+.left_info_content{
+	background: url("../img/web_images/cal_background2.jpg") 0% 0 no-repeat fixed;
+    color: #fff;
+    background-size: contain;
+    position: relative;
+    height: 180px;
+    margin: 10px;
 }
