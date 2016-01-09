@@ -142,7 +142,7 @@ p {
     margin: 0px 1.5% 30px 1.5%;
     border: 2px solid #FAFAFA;
     padding: 8px 5px 0px 5px;
-    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+    box-shadow: 0 5px 20px rgba(34, 25, 25, 0.4);
     text-decoration: none;
 }
 
@@ -206,6 +206,12 @@ div#about_laddakh:hover {
     opacity: 0.75;
     box-shadow: 0 10px 45px rgba(34, 25, 25, 0.4);
     transition: opacity .5s ease-in-out;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+    #about_laddakh {
+        height: 700px;
+    }
 }
 
 #aout_us_header {
