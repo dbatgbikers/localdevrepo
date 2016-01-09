@@ -25,11 +25,12 @@ html {
 }
 
 .whitespace {
+    width: 80%;
+    border: 2px solid #FAFAFA;
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
     min-height: 600px;
-    margin: 0;
-    margin-bottom: 35px;
-    background-size: cover;
-    padding: 80px 0 80px 0;
+    margin: 100px auto;
+    padding: 30px 0 80px 0;
 }
 
 body {
@@ -128,7 +129,7 @@ p {
 }
 
 #body_content {
-    width: 95%;
+    width: 100%;
     height: 60%;
     margin: 0px auto;
     text-align: center;
@@ -143,6 +144,13 @@ p {
     padding: 8px 5px 0px 5px;
     box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
     text-decoration: none;
+}
+
+.events:hover {
+    filter: alpha(opacity=75);
+    opacity: 0.75;
+    box-shadow: 0 10px 45px rgba(34, 25, 25, 0.4);
+    transition: opacity .5s ease-in-out;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
@@ -169,6 +177,37 @@ p {
     height: auto;
 }
 
+#about_laddakh{
+    margin: 70px auto;
+    height: 650px;
+    width: 80%;
+    border: 2px solid #FAFAFA;
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+}
+
+#about_ladakh_title{
+    text-align: center;
+}
+
+#about_laddakh .upcoming_event_quote{
+    margin: 0 70px;
+    padding-bottom: 0px;
+}
+
+#ladakh_cover_img{
+    width: 90%;
+    height: 360px;
+    margin: 0 auto;
+    display:block;
+}
+
+div#about_laddakh:hover {
+    filter: alpha(opacity=75);
+    opacity: 0.75;
+    box-shadow: 0 10px 45px rgba(34, 25, 25, 0.4);
+    transition: opacity .5s ease-in-out;
+}
+
 #aout_us_header {
     width: 65%;
     float: left;
@@ -189,7 +228,7 @@ p {
 
 .about_us_container {
     width: 75%;
-    margin: 1% auto;
+    margin: 3% auto;
     padding: 1%;
     border: 2px solid #FAFAFA;
     box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
