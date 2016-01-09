@@ -4,19 +4,22 @@ body{
 
 #cover_container {
     width: 100%;
+    height: 87%;
     position: relative;
 }
 
-#past_rides_main_cover img {
-    height: 600px;
-    width: 100%;
-    object-fit: cover;
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+    #cover_container {
+	    width: 100%;
+	    height: 50%;
+	    position: relative;
+	}
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
-    #past_rides_main_cover img{
-    	height: 450px;
-    }
+#past_rides_main_cover img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 #past_rides_title {
@@ -26,7 +29,6 @@ body{
     margin-left:auto;
     margin-right:auto;
     bottom: 0;
-    height: 100px;
     width: 80%;
     background-color: #fff;
 }
@@ -36,8 +38,8 @@ body{
 }
 
 h2 {
-    font-family: "Arvo";
-    font-weight: normal;
+    font-family: "Wellfleet";
+    font-weight: bolder;
     font-size: 40px;
     text-align: center;
     color: #777;
@@ -47,8 +49,7 @@ h2 {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
     #past_rides_title{
-        width: 75%;
-        height: 70px;
+        width: 100%;
         margin-top: 2%;
     }
 }
@@ -72,7 +73,7 @@ h2 {
 }
 
 .left_info_panel{
-	width: 60%;
+	width: 65%;
 	height: 200px;
 	background-color: #FFF;
 	border: 2px solid #FAFAFA;
@@ -107,7 +108,7 @@ h2 {
 }
 
 .right_intro_panel{
-	width: 18%;
+	width: 21%;
 	height: 200px;
 	margin-left: 5%;
 	background-color: #FFF;
@@ -123,7 +124,7 @@ h2 {
 }
 
 .left_intro_panel{
-	width: 18%;
+	width: 21%;
 	height: 200px;
 	background-color: #FFF;
 	border: 2px solid #FAFAFA;
@@ -137,7 +138,7 @@ h2 {
 	position: relative;
 	background: #FFF;
 	border: 2px solid #eee;
-	width: 60%;
+	width: 65%;
 	height: 200px;
 	display: inline-block;
 	vertical-align: top;
@@ -201,6 +202,7 @@ h4{
 	margin-top: 10px;
 	font-family: "Arvo";
     font-weight: normal;
+    color: #999;
     font-size: 20px;
     padding: 0px;
 }
@@ -209,6 +211,7 @@ p {
 	margin: 0;
 	margin-top: 10px;
 	font-family: "Arvo";
+    color: #999;
     font-weight: normal;
     font-size: 22px;
     letter-spacing: 1px;
@@ -229,7 +232,6 @@ p {
 }
 
 .right_info_content {
-    background: url("../img/web_images/cal_background.jpg") 70% 0 no-repeat fixed;
     color: #fff;
     background-size: contain;
     position: relative;
@@ -238,20 +240,55 @@ p {
 }
 
 .date_number{
+	color: #777;
+	font-family: "Wellfleet";
 	font-size: 80px;
 }
 .date_month{
+	color: #777;
+	font-family: "Wellfleet";
 	font-size: 32px;
 }
 .date_year{
+	color: #777;
+	font-family: "Wellfleet";
 	font-size: 20px;
 }
 
 .left_info_content{
-	background: url("../img/web_images/cal_background2.jpg") 0% 0 no-repeat fixed;
     color: #fff;
     background-size: contain;
     position: relative;
     height: 180px;
     margin: 10px;
+}
+
+.past_ride_quote{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.past_ride_quote h4{
+	margin: 0;
+    display: block;
+    font-family: 'Goudy Bookletter 1911', serif;
+    color: #999;
+    font-size: 20px;
+    font-weight: normal;
+}
+.past_ride_quote h5{
+	margin: 0;
+    display: block;
+    font-family: 'Goudy Bookletter 1911', serif;
+    color: #999;
+    font-size: 15px;
+    font-weight: normal;
+}
+.past_ride_quote h3{
+	margin: 0;
+    display: block;
+    font-family: 'Goudy Bookletter 1911', serif;
+    color: #999;
+    font-size: 45px;
+    font-weight: normal;
 }
