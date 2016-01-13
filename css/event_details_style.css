@@ -40,7 +40,7 @@ body {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
     #event_title{
-        width: 75%;
+        width: 79%;
         height: 110px;
     }
 }
@@ -148,7 +148,7 @@ h5 {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
     h2 {
-        font-size: 50px;
+        font-size: 38px;
     }
     h3{
         font-size: 32px;
@@ -165,8 +165,8 @@ h5 {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
     #event_content_container{
-        width: 85%;
-        margin-left: 7%;
+        width: 79%;
+        margin-left: 10.3%;
     }
 }
 
