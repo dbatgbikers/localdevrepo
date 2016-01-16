@@ -58,7 +58,7 @@ function loadOnCanvas(file) {
                 var data = imageData.data;
 
                 ctx.putImageData(imageData, 0, 0);
-                ctx.globalAlpha = 0.7;
+                ctx.globalAlpha = 0.9;
                 ctx.drawImage(overlayImage, 0, 0);
                 document.getElementById('download-btn').style.display = 'inline';
             }
