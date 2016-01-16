@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>DBATG Profile Pic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Hitesh Goel">
+    <meta name="description" content="Celebrate The Pride Ride">
+    <meta property="og:title" content="Pride Ride" />
+    <meta property="og:site_name" content="Pride Ride" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/profile_pic.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Get Yourself A DBATG Tag</h1>
+        <div class="manifesto">
+            " Individuals' security and privacy on the Internet are fundamental and must not be treated as optional."<i>- mozilla manifesto</i>
+        </div>
+        <p style="font-size:14px;line-height:3;text-align:center">Upload your profile picture to generate one like the shown below. Change your profile picture to support and promote <b>#privacymonth</b></p>
+        <div class="transform-app">
+            <input type="file" id="fileElem" class="hidden">
+            <button class="pure-button pure-button-primary" id="select-photo">Select profile photo</button>
+            <br>
+            <canvas id="canvas" class="magic pure-img" width="800" height="800"></canvas>
+            <br>
+            <a href="#" id="download-btn" download="profile-pic.png">
+                <button class="pure-button download-btn">Download</button>
+            </a>
+        </div>
+        <div class="push"></div>
+    </div>
+    <script type="text/javascript" src="js/profile_pic.js"></script>
+</body>
+
+</html>
