@@ -21,7 +21,7 @@ function loadPicture(evt) {
 }
 
 var logoPreloader = new Image();
-logoPreloader.src = 'img/logo.png';
+logoPreloader.src = 'img/web_images/dbatg_tag/logo.png';
 
 function imageLoadTracker(src, onload) {
     var img = new Image();
@@ -52,8 +52,7 @@ function loadOnCanvas(file) {
                     newHeight = 800;
                     newWidth = width / scale;
                 }
-                ctx.drawImage(baseImg, canvas.width / 2 - newWidth / 2,
-                    canvas.height / 2 - newHeight / 2, newWidth, newHeight);
+                ctx.drawImage(baseImg, canvas.width / 2 - newWidth / 2, canvas.height / 2 - newHeight / 2, newWidth, newHeight);
                 var imageData = ctx.getImageData(0, 0, 800, 800);
                 var data = imageData.data;
 
@@ -64,7 +63,7 @@ function loadOnCanvas(file) {
             }
         }
         var baseImg = imageLoadTracker(e.target.result, imageProcess);
-        var overlayImage = imageLoadTracker('img/logo.png', imageProcess);
+        var overlayImage = imageLoadTracker('img/web_images/dbatg_tag/logo.png', imageProcess);
     }
 }
 
@@ -78,7 +77,7 @@ document.getElementById('fileElem').addEventListener('change', loadPicture, fals
 document.getElementById('download-btn').addEventListener('click', downloadPic, false);
 
 var samplePreloader = new Image();
-samplePreloader.src = 'img/osho.png';
+samplePreloader.src = 'img/web_images/dbatg_tag/osho.png';
 samplePreloader.addEventListener('load', function() {
     var canvas = document.getElementById('canvas');
     var ctx = canvas.getContext('2d');

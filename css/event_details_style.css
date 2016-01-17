@@ -206,3 +206,36 @@ ul {
     margin-bottom: 50px;
     padding: 0 5%
 }
+
+#luggage_ride {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#luggage_details {
+    height: 40%;
+    width: 40%;
+    display: inline-block;
+    margin: 0px 1.5% 30px 1.5%;
+    border: 2px solid #FAFAFA;
+    padding: 8px 5px 0px 5px;
+    box-shadow: 0 5px 20px rgba(34, 25, 25, 0.4);
+    text-decoration: none;
+}
+
+#luggage_details img{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+#luggage_title {
+    text-align: center;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-weight: normal;
+    font-size: 30px;
+    margin: 10px auto;
+    color: #777;
+}

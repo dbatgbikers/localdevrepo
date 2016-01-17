@@ -10,6 +10,7 @@ html {
 
 #img1 {
     background: url("../img/web_images/cover_pics/106.jpg") 50% 0 no-repeat fixed;
+    background-position: bottom 100% ;
     color: #fff;
     min-height: 600px;
     margin: 0;
@@ -21,6 +22,7 @@ html {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
     #img1 {
         min-height: 400px;
+        background-position: 27% -500px;
     }
 }
 
